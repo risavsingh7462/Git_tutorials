@@ -24,4 +24,4 @@ Uploding_File_On_Git:)
         -->$git push -u origin master/main
 
 ## CREATE NEW BRANCH
-- git checkout -b <branch>
+- git checkout -b `branch-name`
