@@ -22,3 +22,6 @@ Uploding_File_On_Git:)
 6.Push:-
         -->$git status
         -->$git push -u origin master/main
+
+## CREATE NEW BRANCH
+- git checkout -b <branch>
