@@ -1,5 +1,5 @@
 ## Table of Content
-- [git](git)
+- [git](#git)
 ## git
 ### 1.1 Uploding_File_On_Git:)
 
