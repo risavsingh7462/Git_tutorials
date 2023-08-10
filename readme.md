@@ -1,4 +1,7 @@
-## Uploding_File_On_Git:)
+## Table of Content
+- [git](git)
+## git
+### 1.1 Uploding_File_On_Git:)
 
 - 1. Creating Folder
         - On local host
@@ -23,5 +26,5 @@
         - ```$git status```
         - ```$git push -u origin master/main```
 
-## CREATE NEW BRANCH
+### 1.2 CREATE NEW BRANCH
 - ```$git checkout -b <branch-name>```
