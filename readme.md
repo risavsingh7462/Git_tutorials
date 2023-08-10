@@ -1,5 +1,6 @@
 ## Table of Content
 - [git](#git)
+- [JavaScript](#javascript)
 ## git
 ### 1.1 Uploding_File_On_Git:)
 
@@ -28,3 +29,6 @@
 
 ### 1.2 CREATE NEW BRANCH
 - ```$git checkout -b <branch-name>```
+
+## Javascript
+### Variables
