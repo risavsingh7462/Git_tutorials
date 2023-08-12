@@ -60,7 +60,7 @@ alert(color); // #FF7F00
 - `const` are nor update nor redeclare they are constants.
 
 ## jQuery
-### Installation
+### 1 jQuery Installation
 - By downloading the compressed jQuery file
 - Using the jQuery CDN
 ``` html
@@ -92,14 +92,14 @@ alert(color); // #FF7F00
 
 ```
 
-### jQuery Syntax
+### 2. jQuery Syntax
 General syntax of jQuery
 ``` js
 $('selector').action();
 ```
 
-### jQuery Functions
-- `click()`:
+### 3. jQuery Functions
+- 3.1. `click()`:
 On click paragraph tag 'p' the simple message is print on the console.
 ``` js
  $('p').click(function(){
@@ -107,7 +107,7 @@ On click paragraph tag 'p' the simple message is print on the console.
 });
 ```
 
-- `hide()`: hide() function simply hide the content on click. We can select any tag, id, or class.
+- 3.2. `hide()`: hide() function simply hide the content on click. We can select any tag, id, or class.
 ``` js
  $('p').hide(); //it will hide all the p tags
 ```
@@ -122,7 +122,7 @@ note: if there exist multiple p tags then we can use `this` keyword to target sp
  $('.class').hide(); // for select class
 ```
 
-### **`document.ready()`** event:
+### 4. **`document.ready()`** event:
 When our page is big, it takes time to load the document, but if we run JavaScript before the page is loaded, then there may be a create problem. So, to confirm that our document is ready, we will write it here in the `document.ready()` function, and **all jquery code will be inside that function**.
 ``` js
 // document.ready() event for confirm that document is ready.
@@ -138,3 +138,16 @@ $(document).ready(function () {
       }); // do this when click on p
     });
 ```
+
+### 5. jQuery Selectors
+There are three main types of selectors in jQuery
+- Element Selector
+- Id selector
+- Class Selector
+
+#### 5.1. Element Selector:
+Element selector selects all the elements with the specified element name. e.g. if we select p tag then it will target all the p elements of the document.
+``` js
+$('p').click();
+```
+
