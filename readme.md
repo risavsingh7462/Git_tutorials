@@ -97,3 +97,12 @@ General syntax of jQuery
 ``` js
 $('selector').action();
 ```
+
+### jQuery Functions
+- `click()`:
+On click paragraph tag 'p' the simple message is print on the console.
+``` js
+ $('p').click(function(){
+        console.log("you click on p");
+});
+```
