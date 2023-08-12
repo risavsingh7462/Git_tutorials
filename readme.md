@@ -121,3 +121,20 @@ note: if there exist multiple p tags then we can use `this` keyword to target sp
  $('#id').hide(); //for selecting id
  $('.class').hide(); // for select class
 ```
+
+### **`document.ready()`** event:
+When our page is big, it takes time to load the document, but if we run JavaScript before the page is loaded, then there may be a create problem. So, to confirm that our document is ready, we will write it here in the `document.ready()` function, and **all jquery code will be inside that function**.
+``` js
+// document.ready() event for confirm that document is ready.
+$(document).ready(function () {
+        console.log("we are using jQuery");
+
+        $("p").click(function () {
+                console.log("you click on p");
+                //$('p').hide(); //it will hide all the p tags
+                $(this).hide(); // by using this keyword we can hide specific p tag
+                $("#id").hide(); //for selecting id
+                $(".class").hide(); // for select class
+      }); // do this when click on p
+    });
+```
