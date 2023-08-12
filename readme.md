@@ -59,10 +59,10 @@ alert(color); // #FF7F00
 
 - `const` are nor update nor redeclare they are constants.
 
-  ## jQuery
-  ### Installation
-  - By downloading the compressed jQuery file
-  - Using the jQuery CDN
+## jQuery
+### Installation
+- By downloading the compressed jQuery file
+- Using the jQuery CDN
 ``` html
 <!DOCTYPE html>
 <html lang="en">
@@ -105,4 +105,19 @@ On click paragraph tag 'p' the simple message is print on the console.
  $('p').click(function(){
         console.log("you click on p");
 });
+```
+
+- `hide()`: hide() function simply hide the content on click. We can select any tag, id, or class.
+``` js
+ $('p').hide(); //it will hide all the p tags
+```
+note: if there exist multiple p tags then we can use `this` keyword to target specific p tags.
+
+``` js
+ $(this).hide(); // by using this keyword we can hide specific p tag 
+```
+**for selecting #id or .class**
+``` js
+ $('#id').hide(); //for selecting id
+ $('.class').hide(); // for select class
 ```
