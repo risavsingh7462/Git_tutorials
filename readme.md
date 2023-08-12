@@ -1,6 +1,7 @@
 ## Table of Content
 - [git](#git)
 - [JavaScript](#javascript)
+- [jQuery](#jquery)
 ## git
 ### 1.1 Uploding_File_On_Git:)
 
@@ -57,3 +58,41 @@ alert(color); // #FF7F00
 ```
 
 - `const` are nor update nor redeclare they are constants.
+
+  ## jQuery
+  ### Installation
+  - By downloading the compressed jQuery file
+  - Using the jQuery CDN
+``` html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery tutorial</title>
+  </head>
+  <body>
+    hello world
+    <p>click on p</p>
+  </body>
+  <!-- <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script> -->
+  <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+  
+    console.log($); // $ means jquery
+    console.log("we are using jQuery")
+    // $('selector').action()
+  
+  </script>
+</html>
+
+```
+
+### jQuery Syntax
+``` js
+$('selector').action();
+```
