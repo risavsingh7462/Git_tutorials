@@ -93,6 +93,7 @@ alert(color); // #FF7F00
 ```
 
 ### jQuery Syntax
+General syntax of jQuery
 ``` js
 $('selector').action();
 ```
