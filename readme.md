@@ -31,6 +31,31 @@
 ### 1.2 CREATE NEW BRANCH
 - ```$git checkout -b <branch-name>```
 
+### 1.3 Merge master branch to main
+- 1 Git fetching
+  The initial command to run is git fetch for getting the latest updates of your repository.
+  ```$git fetch```
+
+- 2 Git rebasing
+  The git rebase command will bring the latest commits of the master to your branch.
+  ```$git rebase origin/main```
+
+- 3 Switching to main
+  Switch to the master branch by running git checkout
+  ```$git checkout main```
+
+- 4 Pulling changes
+  Get the latest changes from the main by using git pull:
+  ```$git pull origin main```
+
+- 5 Merging changes
+  Then merge the changes with the git merge command
+  ```$git merge master```
+
+- 6 Pushing changes
+  The final step is pushing local changes to the remote repository
+  ```$git push origin main```
+
 ## Javascript
 ### Variables
 Variables are the containers used to store data, we can declare variables in JavaScript by using the keywords `var`, `let`, and `const`.
