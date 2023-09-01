@@ -1,5 +1,5 @@
 ## Table of Content
-- [git](#git)
+- [Git](#git)
   - [1.1 Uploding_File_On_Git:)](#1.1)
   - [1.2 CREATE NEW BRANCH](#u1.2)
   - [1.3 Merge master branch to main](#1.3)
