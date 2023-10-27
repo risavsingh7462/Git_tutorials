@@ -7,7 +7,23 @@
 - [jQuery](#jquery)
 ## git
 ### 1.1 Uploding_File_On_Git:)
+### *…or create a new repository on the command line*
+```bash
+ echo "# javascript-core" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sanjivpaul/javascript-core.git
+git push -u origin main
 
+```
+### *…or push an existing repository from the command line*
+```bash
+git remote add origin https://github.com/sanjivpaul/javascript-core.git
+git branch -M main
+git push -u origin main
+```
 - 1. Creating Folder
         - On local host
         - On git repository
